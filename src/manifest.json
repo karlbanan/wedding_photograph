@@ -1,0 +1,61 @@
+{
+    "name" : "Bröllopsfotografen",
+    "short_name" : "Brölfot",
+    "theme_color" : "#D69F9F",
+    "background_color" : "#9D9D9D",
+    "display" : "standalone",
+    "scope" : "/",
+    "start_url" : "/",
+    "icons" : [
+        {
+            "src" : "assets/icon-camera-72.png",
+            "type" : "image/png",
+            "sizes" : "72x72"
+        },
+        {
+            "src" : "assets/icon-camera-96.png",
+            "type" : "image/png",
+            "sizes" : "96x96"
+        },
+        {
+            "src" : "assets/icon-camera-120.png",
+            "type" : "image/png",
+            "sizes" : "120x120"
+        },
+        {
+            "src" : "assets/icon-camera-128.png",
+            "type" : "image/png",
+            "sizes" : "128x128"
+        },
+        {
+            "src" : "assets/icon-camera-144.png",
+            "type" : "image/png",
+            "sizes" : "144x144"
+        },
+        {
+            "src" : "assets/icon-camera-152.png",
+            "type" : "image/png",
+            "sizes" : "152x152"
+        },
+        {
+            "src" : "assets/icon-camera-180.png",
+            "type" : "image/png",
+            "sizes" : "180x180"
+        },
+        {
+            "src" : "assets/icon-camera-192.png",
+            "type" : "image/png",
+            "sizes" : "192x192"
+        },
+        {
+            "src" : "assets/icon-camera-384.png",
+            "type" : "image/png",
+            "sizes" : "384x384"
+        },
+        {
+            "src" : "assets/icon-camera-512.png",
+            "type" : "image/png",
+            "sizes" : "512x512"
+        }
+    ]
+}

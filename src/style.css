@@ -1,0 +1,162 @@
+body {
+    background-color: #2A2E30;
+}
+
+header {
+/*    position: absolute; 
+    top: 0px;
+    left: 0px;
+
+    width: 70vh;
+    height: 20vh;
+    */
+
+    background-color: #2A2E30;
+}
+
+canvas {
+    position: absolute;
+    visibility: hidden;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+ 
+
+video {
+    display: block;
+    width: 64vh;
+    height: 36vh;    
+    align-self: center;
+    vertical-align: bottom;
+    border-radius: 5px;
+}
+
+#preview-image {
+    display: block;
+    width: 64vh;
+    height: 36vh;
+    align-self: center;
+    border-radius: 5px;
+}
+
+header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.show-gallery-img {
+    display: block;
+    margin-left: auto;
+}
+
+.show-preview-img {
+    display: block;
+    margin-left: auto;
+}
+
+.round-rect-button {
+    color: black;
+    background-color: #ffffff;
+    height: 5rem;
+    border-radius: 5px;
+    width: 100%;
+    padding: 0;
+    border: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+#video-preview {
+    position: absolute;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 70vh;
+    height: 90vh;
+}
+
+#photo-preview {
+    position: absolute;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 70vh;
+    height: 90vh;
+}
+
+#gallery-view {
+    position: absolute;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 90vh;
+    width: 70vh;
+}
+
+#gallery-view ul {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-start;
+    align-items: stretch;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+}
+
+.photo-list-item {
+    padding-bottom: 3vh;
+    margin: 0px;
+    background-color: transparent;
+}
+
+.photo-image {
+    position: relative;
+    padding: 0px;
+    margin: 0px;
+    background-color: transparent;
+
+    width: 32vh;
+    height: 18vh;
+}
+
+.delete-image {
+    position: relative;
+    top: -14vh;
+    right: 4vh;
+    width: 3vh;
+    height: 3vh;
+    background-color: transparent;
+
+}

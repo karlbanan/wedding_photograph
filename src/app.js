@@ -62,6 +62,7 @@ async function getData(){
     if(localStorage.getItem(['WeddingPhotograph'])){
         photos = JSON.parse(localStorage.getItem('WeddingPhotograph')).photos;
         render();
+        return;
     }
 
     try {
@@ -74,7 +75,7 @@ async function getData(){
             }
         });
 
-        let data = await resp.json();
+        let data = await resp.json();        
         photos = data.record.photos;
         render();
 
